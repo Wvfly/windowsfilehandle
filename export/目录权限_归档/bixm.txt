@@ -1,0 +1,22 @@
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/lhp'	 0	 3	读写
+'User: CW-SHAREFILES/liaobh'	 0	 3	读写
+'User: CW-SHAREFILES/basj'	 0	 3	读写
+'User: CW-SHAREFILES/bixm'	 0	 3	读写
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/syzy'	 1	 19	读写
+'User: CW-SHAREFILES/sdbg'	 1	 19	读写
+'User: CW-SHAREFILES/bixm'	 0	 19	只读
+'User: BUILTIN/Administrators'	 0	 16	读写
+'User: /CREATOR OWNER'	 0	 27	读写
+'User: CW-SHAREFILES/lhp'	 0	 19	只读
+'User: NT AUTHORITY/SYSTEM'	 0	 19	读写
+'User: CW-SHAREFILES/basj'	 0	 19	只读
+'User: CW-SHAREFILES/xiaofp'	 0	 19	读写
+'User: CW-SHAREFILES/TCL-RB-RW'	 0	 19	读写
+'User: CW-SHAREFILES/robot'	 0	 19	读写
+'User: CW-SHAREFILES/Administrator'	 0	 19	读写
+'User: BUILTIN/Administrators'	 0	 27	读写
+'User: BUILTIN/Users'	 0	 19	只读
+'User: BUILTIN/Users'	 0	 18	特殊权限
+'User: CW-SHAREFILES/liaobh'	 0	 19	只读

@@ -1,0 +1,24 @@
+'User: CW-SHAREFILES/leaderTeam'	 1	 3	特殊权限
+'User: CW-SHAREFILES/Internal control management'	 1	 3	特殊权限
+'User: CW-SHAREFILES/MiddleManagerTeam'	 1	 3	特殊权限
+'User: CW-SHAREFILES/dahua'	 1	 11	读写
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/leaderTeam'	 0	 3	只读
+'User: CW-SHAREFILES/Internal control management'	 0	 3	只读
+'User: CW-SHAREFILES/Financial Statements Team'	 0	 3	读写
+'User: CW-SHAREFILES/KPI Team'	 0	 3	只读
+'User: CW-SHAREFILES/lhp'	 0	 3	只读
+'User: CW-SHAREFILES/MiddleManagerTeam'	 0	 3	只读
+'User: CW-SHAREFILES/F_HBKJ_R'	 0	 3	只读
+'User: CW-SHAREFILES/F_HBKJ_W'	 0	 3	读写
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/basj'	 0	 3	只读
+'User: CW-SHAREFILES/xiongmm'	 0	 3	读写
+'User: CW-SHAREFILES/dahua'	 0	 0	只读
+'User: CW-SHAREFILES/xxbin'	 0	 3	读写
+'User: CW-SHAREFILES/huangning2'	 0	 3	读写
+'User: CW-SHAREFILES/wjd'	 0	 3	只读
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/Administrator'	 0	 3	读写
+'User: BUILTIN/Administrators'	 0	 3	读写

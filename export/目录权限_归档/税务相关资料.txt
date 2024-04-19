@@ -1,0 +1,18 @@
+'User: CW-SHAREFILES/shizm'	 1	 11	读写
+'User: CW-SHAREFILES/zhaolin'	 1	 11	读写
+'User: CW-SHAREFILES/xiaotong.ye'	 1	 11	读写
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/leaderTeam'	 0	 3	只读
+'User: CW-SHAREFILES/AccountTeam'	 0	 3	只读
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/TaxTeam'	 0	 3	读写
+'User: CW-SHAREFILES/KPI Team'	 0	 3	只读
+'User: CW-SHAREFILES/F_SWXGZL_R'	 0	 3	只读
+'User: CW-SHAREFILES/F_SWXGZL_W'	 0	 3	读写
+'User: CW-SHAREFILES/shizm'	 0	 0	特殊权限
+'User: CW-SHAREFILES/zhaolin'	 0	 0	只读
+'User: CW-SHAREFILES/xiaotong.ye'	 0	 0	只读
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/Administrator'	 0	 3	读写
+'User: BUILTIN/Administrators'	 0	 3	读写

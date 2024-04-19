@@ -1,0 +1,86 @@
+Administrator	
+DefaultAccount	
+Getech	weigang3.wu
+Guest	
+WDAGUtilityAccount	
+wwg	测试
+Administrator	
+DefaultAccount	
+Getech	weigang3.wu
+Guest	
+WDAGUtilityAccount	
+wwg	测试
+wwg1	wwg1
+wwg2	wwg2
+Administrator	
+DefaultAccount	
+Getech	weigang3.wu
+Guest	
+WDAGUtilityAccount	
+wwg	测试
+wwg1	wwg1
+wwg2	wwg2
+Administrator	
+DefaultAccount	
+Getech	weigang3.wu
+Guest	
+WDAGUtilityAccount	
+wwg	测试
+wwg1	wwg1
+wwg2	wwg2
+用户名：Administrator	用户全名：
+用户名：DefaultAccount	用户全名：
+用户名：Getech	用户全名：weigang3.wu
+用户名：Guest	用户全名：
+用户名：WDAGUtilityAccount	用户全名：
+用户名：wwg	用户全名：测试
+用户名：wwg1	用户全名：wwg1
+用户名：wwg2	用户全名：wwg2
+用户名：Administrator	用户全名：
+用户名：DefaultAccount	用户全名：
+用户名：Getech	用户全名：weigang3.wu
+用户名：Guest	用户全名：
+用户名：WDAGUtilityAccount	用户全名：
+用户名：wwg	用户全名：测试
+用户名：wwg1	用户全名：wwg1
+用户名：wwg2	用户全名：wwg2
+用户名：Administrator	用户全名：
+用户名：DefaultAccount	用户全名：
+用户名：Getech	用户全名：weigang3.wu
+用户名：Guest	用户全名：
+用户名：WDAGUtilityAccount	用户全名：
+用户名：wwg	用户全名：测试
+用户名：wwg1	用户全名：wwg1
+用户名：wwg2	用户全名：wwg2
+用户名：Administrator	用户全名：
+用户名：DefaultAccount	用户全名：
+用户名：Getech	用户全名：weigang3.wu
+用户名：Guest	用户全名：
+用户名：WDAGUtilityAccount	用户全名：
+用户名：wwg	用户全名：测试
+用户名：wwg1	用户全名：wwg1
+用户名：wwg2	用户全名：wwg2
+用户名：Administrator	用户全名：
+用户名：DefaultAccount	用户全名：
+用户名：Getech	用户全名：weigang3.wu
+用户名：Guest	用户全名：
+用户名：WDAGUtilityAccount	用户全名：
+用户名：wwg	用户全名：测试
+用户名：wwg1	用户全名：wwg1
+用户名：wwg2	用户全名：wwg2
+用户名：Administrator	用户全名：
+用户名：DefaultAccount	用户全名：
+用户名：Getech	用户全名：weigang3.wu
+用户名：Guest	用户全名：
+用户名：WDAGUtilityAccount	用户全名：
+用户名：wwg	用户全名：测试
+用户名：wwg1	用户全名：wwg1
+用户名：wwg2	用户全名：wwg2
+用户名：Administrator	用户全名：
+用户名：DefaultAccount	用户全名：
+用户名：Getech	用户全名：weigang3.wu
+用户名：Guest	用户全名：
+用户名：WDAGUtilityAccount	用户全名：
+用户名：wwg	用户全名：测试
+用户名：wwg1	用户全名：wwg1
+用户名：wwg2	用户全名：wwg2

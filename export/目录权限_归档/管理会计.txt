@@ -1,0 +1,24 @@
+'User: CW-SHAREFILES/lvrui'	 1	 11	读写
+'User: CW-SHAREFILES/zpying'	 1	 11	读写
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/jingcm'	 0	 3	只读
+'User: CW-SHAREFILES/glkj'	 0	 3	读写
+'User: CW-SHAREFILES/TCL-GLKJ-RD'	 0	 3	只读
+'User: CW-SHAREFILES/TCL-GLKJ-RW'	 0	 3	读写
+'User: CW-SHAREFILES/luojinxi'	 0	 3	读写
+'User: CW-SHAREFILES/lvrui'	 0	 0	只读
+'User: CW-SHAREFILES/lucl'	 0	 3	读写
+'User: CW-SHAREFILES/zpying'	 0	 0	只读
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/Administrator'	 0	 3	读写
+'User: BUILTIN/Administrators'	 0	 3	读写
+'User: BUILTIN/Users'	 0	 2	特殊权限
+'User: BUILTIN/Users'	 0	 3	只读
+'User: BUILTIN/Users'	 0	 19	特殊权限
+'User: BUILTIN/Administrators'	 0	 16	读写
+'User: /CREATOR OWNER'	 0	 27	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 19	读写
+'User: BUILTIN/Administrators'	 0	 27	读写
+'User: BUILTIN/Users'	 0	 18	特殊权限

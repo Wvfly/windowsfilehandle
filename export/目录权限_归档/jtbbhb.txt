@@ -1,0 +1,38 @@
+'User: CW-SHAREFILES/leaderTeam'	 1	 3	特殊权限
+'User: CW-SHAREFILES/tjing'	 1	 11	读写
+'User: CW-SHAREFILES/MiddleManagerTeam'	 1	 3	特殊权限
+'User: CW-SHAREFILES/jtbbhb_read'	 1	 3	特殊权限
+'User: CW-SHAREFILES/robot'	 1	 11	读写
+'User: CW-SHAREFILES/liuw01'	 1	 11	读写
+'User: CW-SHAREFILES/baiyunfei'	 1	 11	读写
+'User: CW-SHAREFILES/robot1'	 1	 11	读写
+'User: CW-SHAREFILES/robot2'	 1	 11	读写
+'User: CW-SHAREFILES/robot3'	 1	 11	读写
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/leaderTeam'	 0	 3	只读
+'User: CW-SHAREFILES/Financial Statements Team'	 0	 3	读写
+'User: CW-SHAREFILES/KPI Team'	 0	 3	只读
+'User: CW-SHAREFILES/lhp'	 0	 3	读写
+'User: CW-SHAREFILES/tjing'	 0	 0	只读
+'User: CW-SHAREFILES/MiddleManagerTeam'	 0	 3	只读
+'User: CW-SHAREFILES/Financial Statement Fresher'	 0	 3	特殊权限
+'User: CW-SHAREFILES/jtbbhb_read'	 0	 3	只读
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/robot'	 0	 0	特殊权限
+'User: CW-SHAREFILES/liuw01'	 0	 0	特殊权限
+'User: CW-SHAREFILES/F_JTBBHB_W'	 0	 3	读写
+'User: CW-SHAREFILES/baiyunfei'	 0	 0	特殊权限
+'User: CW-SHAREFILES/basj'	 0	 3	只读
+'User: CW-SHAREFILES/zpying'	 0	 3	只读
+'User: CW-SHAREFILES/xiongmm'	 0	 3	读写
+'User: CW-SHAREFILES/robot1'	 0	 0	特殊权限
+'User: CW-SHAREFILES/robot2'	 0	 0	特殊权限
+'User: CW-SHAREFILES/robot3'	 0	 0	特殊权限
+'User: CW-SHAREFILES/dahua'	 0	 3	读写
+'User: CW-SHAREFILES/xxbin'	 0	 3	读写
+'User: CW-SHAREFILES/huangning2'	 0	 3	读写
+'User: CW-SHAREFILES/wjd'	 0	 3	只读
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/Administrator'	 0	 3	读写
+'User: BUILTIN/Administrators'	 0	 3	读写

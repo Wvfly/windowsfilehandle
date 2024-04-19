@@ -1,0 +1,13 @@
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/leaderTeam'	 0	 3	只读
+'User: CW-SHAREFILES/TCL-NBKZ-RD'	 0	 3	只读
+'User: CW-SHAREFILES/TCL-NBKZ-RW'	 0	 3	读写
+'User: CW-SHAREFILES/lucl'	 0	 3	读写
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/Administrator'	 0	 3	读写
+'User: BUILTIN/Users'	 0	 19	特殊权限
+'User: BUILTIN/Administrators'	 0	 16	读写
+'User: /CREATOR OWNER'	 0	 27	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 19	读写
+'User: BUILTIN/Administrators'	 0	 27	读写
+'User: BUILTIN/Users'	 0	 18	特殊权限

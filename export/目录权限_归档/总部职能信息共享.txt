@@ -1,0 +1,32 @@
+'User: CW-SHAREFILES/dshbgs'	 1	 11	读写
+'User: CW-SHAREFILES/fwb'	 1	 11	读写
+'User: CW-SHAREFILES/zcb'	 1	 11	读写
+'User: CW-SHAREFILES/ppglzx'	 1	 11	读写
+'User: CW-SHAREFILES/gyyjy'	 1	 11	读写
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/leaderTeam'	 0	 3	只读
+'User: CW-SHAREFILES/lhp'	 0	 3	读写
+'User: CW-SHAREFILES/xiaofp'	 0	 3	读写
+'User: CW-SHAREFILES/dshbgs'	 0	 0	特殊权限
+'User: CW-SHAREFILES/fwb'	 0	 0	特殊权限
+'User: CW-SHAREFILES/zcb'	 0	 0	特殊权限
+'User: CW-SHAREFILES/ppglzx'	 0	 0	特殊权限
+'User: CW-SHAREFILES/10zbznxxgx'	 0	 3	读写
+'User: CW-SHAREFILES/10zbznxxgx_read'	 0	 0	只读
+'User: CW-SHAREFILES/TCL-ZBZN-RD'	 0	 3	只读
+'User: CW-SHAREFILES/luojinxi'	 0	 3	读写
+'User: CW-SHAREFILES/F-ZBZN-W'	 0	 3	读写
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/chenzz'	 0	 0	只读
+'User: CW-SHAREFILES/gyyjy'	 0	 0	特殊权限
+'User: CW-SHAREFILES/basj'	 0	 3	读写
+'User: CW-SHAREFILES/wjd'	 0	 3	读写
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: BUILTIN/Administrators'	 0	 3	读写
+'User: CW-SHAREFILES/10总部职能信息共享'	 0	 16	读写
+'User: /CREATOR OWNER'	 0	 27	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 19	读写
+'User: BUILTIN/Administrators'	 0	 19	读写
+'User: BUILTIN/Users'	 0	 18	特殊权限
+'User: BUILTIN/Users'	 0	 18	特殊权限

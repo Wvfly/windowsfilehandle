@@ -1,0 +1,10 @@
+'User: CW-SHAREFILES/leaderTeam'	 0	 19	只读
+'User: CW-SHAREFILES/Financial Statements Team'	 0	 19	读写
+'User: CW-SHAREFILES/Financial Statement Fresher'	 0	 19	读写
+'User: CW-SHAREFILES/F_HBZGX_W'	 0	 19	读写
+'User: CW-SHAREFILES/r_default'	 0	 19	只读
+'User: CW-SHAREFILES/xiongmm'	 0	 19	读写
+'User: CW-SHAREFILES/huangning2'	 0	 19	读写
+'User: CW-SHAREFILES/fan.yang'	 0	 19	只读
+'User: CW-SHAREFILES/Administrator'	 0	 19	读写
+'User: BUILTIN/Administrators'	 0	 19	读写

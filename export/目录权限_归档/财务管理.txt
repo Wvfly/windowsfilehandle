@@ -1,0 +1,35 @@
+'User: CW-SHAREFILES/leaderTeam'	 1	 3	特殊权限
+'User: CW-SHAREFILES/TaxTeam'	 1	 3	读写
+'User: CW-SHAREFILES/Financial Statements Team'	 1	 11	读写
+'User: CW-SHAREFILES/xiaofp'	 1	 11	读写
+'User: CW-SHAREFILES/yeshuyu'	 1	 11	读写
+'User: CW-SHAREFILES/liuw01'	 1	 11	读写
+'User: CW-SHAREFILES/xin10.zhao'	 1	 11	读写
+'User: CW-SHAREFILES/huangning2'	 1	 3	特殊权限
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/leaderTeam'	 0	 3	只读
+'User: CW-SHAREFILES/Internal control management'	 0	 3	读写
+'User: CW-SHAREFILES/Financial Statements Team'	 0	 0	只读
+'User: CW-SHAREFILES/KPI Team'	 0	 3	读写
+'User: CW-SHAREFILES/lhp'	 0	 3	读写
+'User: CW-SHAREFILES/MiddleManagerTeam'	 0	 3	读写
+'User: CW-SHAREFILES/jszx_ysgl'	 0	 3	只读
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/xiaofp'	 0	 0	只读
+'User: CW-SHAREFILES/heyanbiao'	 0	 2	只读
+'User: CW-SHAREFILES/yeshuyu'	 0	 0	只读
+'User: CW-SHAREFILES/TCL-YSGL-RD'	 0	 3	只读
+'User: CW-SHAREFILES/F-CWGL-RD'	 0	 3	只读
+'User: CW-SHAREFILES/F-CWGL-RW'	 0	 3	读写
+'User: CW-SHAREFILES/liuw01'	 0	 0	特殊权限
+'User: CW-SHAREFILES/xin10.zhao'	 0	 0	特殊权限
+'User: CW-SHAREFILES/basj'	 0	 3	读写
+'User: CW-SHAREFILES/xiongmm'	 0	 0	只读
+'User: CW-SHAREFILES/xxbin'	 0	 3	只读
+'User: CW-SHAREFILES/huangning2'	 0	 3	只读
+'User: CW-SHAREFILES/wwg'	 0	 0	只读
+'User: CW-SHAREFILES/wjd'	 0	 3	读写
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/Administrator'	 0	 3	读写
+'User: BUILTIN/Administrators'	 0	 3	读写

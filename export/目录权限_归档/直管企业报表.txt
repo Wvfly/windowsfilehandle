@@ -1,0 +1,14 @@
+'User: CW-SHAREFILES/luojinxi'	 1	 3	读写
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/jingcm'	 0	 3	只读
+'User: CW-SHAREFILES/lingyan2.dong'	 0	 3	只读
+'User: CW-SHAREFILES/raojun'	 0	 3	只读
+'User: CW-SHAREFILES/zpying'	 0	 3	只读
+'User: CW-SHAREFILES/xiaotong.ye'	 0	 3	只读
+'User: CW-SHAREFILES/shenpp'	 0	 3	读写
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: BUILTIN/Administrators'	 0	 3	读写
+'User: BUILTIN/Users'	 0	 2	特殊权限
+'User: BUILTIN/Users'	 0	 3	只读

@@ -1,0 +1,16 @@
+'User: CW-SHAREFILES/lucl'	 1	 11	读写
+'User: /CREATOR OWNER'	 0	 11	读写
+'User: NT AUTHORITY/SYSTEM'	 0	 3	读写
+'User: CW-SHAREFILES/leaderTeam'	 0	 3	只读
+'User: CW-SHAREFILES/Financial Statements Team'	 0	 3	读写
+'User: CW-SHAREFILES/MiddleManagerTeam'	 0	 3	只读
+'User: CW-SHAREFILES/lvrui'	 0	 3	读写
+'User: CW-SHAREFILES/F_ZL_W'	 0	 3	读写
+'User: CW-SHAREFILES/r_default'	 0	 3	只读
+'User: CW-SHAREFILES/lucl'	 0	 0	只读
+'User: CW-SHAREFILES/xiongmm'	 0	 3	读写
+'User: CW-SHAREFILES/xxbin'	 0	 3	读写
+'User: CW-SHAREFILES/huangning2'	 0	 3	读写
+'User: CW-SHAREFILES/fan.yang'	 0	 3	只读
+'User: CW-SHAREFILES/Administrator'	 0	 3	读写
+'User: BUILTIN/Administrators'	 0	 3	读写

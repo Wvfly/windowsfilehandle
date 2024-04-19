@@ -1,0 +1,123 @@
+Administrators	管理员对计算机/域有不受限制的完全访问权	Administrator,lhp,saadmin,
+Backup Operators	备份操作员为了备份或还原文件可以替代安全限制	
+Certificate Service DCOM Access	允许该组的成员连接到企业中的证书颁发机构	
+Cryptographic Operators	授权成员执行加密操作。	
+Distributed COM Users	成员允许启动、激活和使用此计算机上的分布式 COM 对象。	
+Event Log Readers	此组的成员可以从本地计算机中读取事件日志	
+Guests	按默认值，来宾跟用户组的成员有同等访问权，但来宾帐户的限制更多	Guest,
+IIS_IUSRS	Internet 信息服务使用的内置组。	
+Network Configuration Operators	此组中的成员有部分管理权限来管理网络功能的配置	
+Performance Log Users	该组中的成员可以计划进行性能计数器日志记录、启用跟踪提供程序，以及在本地或通过远程访问此计算机来收集事件跟踪	
+Performance Monitor Users	此组的成员可以从本地和远程访问性能计数器数据	
+Power Users	包括高级用户以向后兼容，高级用户拥有有限的管理权限	
+Print Operators	成员可以管理域打印机	
+Remote Desktop Users	此组中的成员被授予远程登录的权限	
+Replicator	支持域中的文件复制	
+Users	防止用户进行有意或无意的系统范围的更改，但是可以运行大部分应用程序	INTERACTIVE,Authenticated Users,huangjun1,xiaofp,liaoml,li.zhao,weiling.zeng,jiabin.he,heyanbiao,zhuanghuansheng,fsrpa01,yeshuyu,xiaona.geng,zhangqd,shaotian,huanglj,zhuweiwen,luojinxi,yangxin03,gongqy,ran2.wang,liuw01,xuluoluo,lvrui,chenzz,xujing,baiyunfei,cwgs,gyyjy,lu2.peng,wind,dan.zhao,lancai,huikai.zhuang,qing10.wu,itsrv.sz01,zhonghuan,zhangmq,jiangxs,liugh,changli,basj,hlijun,zhaolin,test,xupeng,zpying,xiaotong.ye,xiongmm,robot1,robot2,robot3,yangdc,zhouhq,fangfeng,yxqing,pengyan,lwfeng,
+10zbznxxgx	总部职能信息共享_rw	lhp,
+10zbznxxgx_read	总部职能信息共享_read	huanglj,gongqy,ran2.wang,liuw01,
+10总部职能信息共享	总部职能信息共享_rw	jianqin,lhp,
+11o2o	o2o_read	
+12o2o	o2o_rw	
+13TCL创投	TCL创投_read	
+14TCL创投	TCL创投_rw	
+15TCL多媒体	TCL多媒体_read	
+16TCL多媒体	TCL多媒体_rw	
+17TCL通讯	TCL通讯_read	
+18TCL通讯	TCL通讯_rw	
+19TCL照明	TCL照明_read	
+20TCL照明	TCL照明_rw	
+21房产	房产_read	
+22房产	房产_rw	
+23翰林汇	翰林汇_read	
+24翰林汇	翰林汇_rw	
+25华瑞光电	华瑞光电_read	
+26华瑞光电	华瑞光电_rw	
+27华显光电	华显光电_read	
+28华显光电	华显光电_rw	
+29华星光电	华星光电_read	
+30华星光电	华星光电_rw	
+31环保资源	环保资源_read	
+32环保资源	环保资源_rw	
+33家电集团	家电集团_read	
+34家电集团	家电集团_rw	
+35教育网	教育网_read	
+36教育网	教育网_rw	
+37金控集团	金控集团_read	
+38金控集团	金控集团_rw	
+39金能	金能_read	
+40金能	金能_rw	
+41商用信息	商用信息_read	
+42商用信息	商用信息_rw	
+43通力电子	通力电子_read	
+44通力电子	通力电子_rw	
+45亚太石油	亚太石油_read	
+46亚太石油	亚太石油_rw	
+47医疗集团	医疗集团_read	
+48医疗集团	医疗集团_rw	
+49智能及互联网应用业务群	智能及互联网应用业务群_read	
+50智能及互联网应用业务群	智能及互联网应用业务群_rw	
+51zbznpt_share	总部职能信息共享_公共文件夹_read	
+52zbznpt_share	总部职能信息共享_公共文件夹_rw	
+53yyxxgx	运营信息共享_rw	zhuanghuansheng,heyanbiao,
+54yyxxgx	运营信息共享_r	
+AccountTeam	会计组	jianqin,
+D_zhbdtbb_r	D:\D_driver\中环半导体报表-读	lhp,
+D_zhbdtbb_w	D:\D_driver\中环半导体报表-读	xiaofp,xin10.zhao,yeshuyu,robot,
+F-CWGL-RD	D:\J_driver\财务管理-只读	
+F-CWGL-RW	D:\J_driver\财务管理-写	laiyi,liaobh,
+F-ZBZN-W	总部职能信息共享-读写	li.zhao,weiling.zeng,xiaona.geng,zltzb,liaobh,
+Financial Statement Fresher	合并报表组实习生	
+Financial Statement Read Team	读报表组,按目录,这个组就不能给它目录权限给它	jingcm,
+Financial Statements Team	财务报表组	xiaofp,liaoml,yeshuyu,
+F_BIXM_W	BI项目写	bixm,
+F_BMGXZL_R	E:\report\部门共享资料-只读	baiyunfei,lingyan2.dong,
+F_BMGXZL_W	E:\report\部门共享资料-写	laiyi,
+F_CWGLZL_R	D:\J_driver\财务管理资料-读	laiyi,
+F_CWXXHZL_W	D:\D_driver\财务信息化资料-写	xin10.zhao,
+F_HBKJ_R	D:\J_driver\合并会计报表-读	liaobh,
+F_HBKJ_W	D:\J_driver\合并会计报表-写	xin10.zhao,
+F_HBZGX_W	E:\report\合并组共享-写	xin10.zhao,
+F_JTBBHB_W	E:\report\jtbbhb-写	xin10.zhao,
+F_KJXX_R	D:\J_driver\会计信息_读	yangxin03,lvrui,baiyunfei,lingyan2.dong,raojun,liaobh,
+F_KJXX_W	D:\J_driver\会计信息_写	xin10.zhao,
+F_RZZGXM_W	D:\J_driver\任职资格项目-写	laiyi,txl,
+F_SWXGZL_R	D:\D_driver\税务相关资料_读	shizm,
+F_SWXGZL_W	D:\D_driver\税务相关资料_写	yangxin03,baiyunfei,lingyan2.dong,raojun,
+F_TDJS_R	E:\report\团队建设-读	tjing,
+F_TDJS_W	E:\report\团队建设-写	laiyi,txl,zhyuanyuan,
+F_tongjizl_read	统计资料文件夹读xie权限	xin10.zhao,
+F_YLYC_R	D:\D_driver\盈利预测-读	xin10.zhao,
+F_YLYC_W	D:\D_driver\盈利预测-写	liaobh,
+F_ZCYLC_W	E:\政策与流程-写	tjing,laiyi,lucl,xiaofp,
+F_ZGQY_R	E:\直管企业报表_读	xiaofp,tjing,liaoml,lhp,jianqin,
+F_ZGQY_W	E:\直管企业报表_写	luojinxi,lvrui,xinghua1.liu,qing10.wu,lancai,huikai.zhuang,
+F_ZGSBB_R	E:\report\子公司报表_读	yangxin03,xuluoluo,lvrui,xujing,baiyunfei,laiyi,liuw01,Audit,lucl,lur.yin,zltzb,lingyan2.dong,raojun,liaobh,
+F_ZGSBB_W	E:\report\子公司报表_写	xin10.zhao,
+F_zltzb_w	E:\战略投资部-写	zltzb,
+F_ZL_W	D:\D_driver\资料-写	xin10.zhao,
+glkj	管理会计	
+gxzx	财务共享中心—20211020	test01,
+Internal control management	内控管理	lhp,
+jszx_ysgl	结算中心_预算管理	
+jtbbhb_read	jtbbhb 本
+文件夹读访问权限	jingcm,lhp,lvrui,lucl,liaobh,
+KPI Team	绩效考核组	jianqin,
+leaderTeam	高层管理组	jingcm,
+MiddleManagerTeam	中层管理组	
+rzzgxm_read	任职资格项目_读	
+r_default	全局只读	wwg,laiyi,
+subReport_read	子公司报表_读权限	
+TaxTeam	税务组	huangjun1,
+TCL-GLKJ-RD	D:\J_driver\管理会计-只读	
+TCL-GLKJ-RW	D:\J_driver\管理会计-读写	laiyi,
+TCL-NBKZ-RD	D:\J_driver\内部控制-只读	tjing,
+TCL-NBKZ-RW	D:\J_driver\内部控制-读写	laiyi,
+TCL-RB-RD	E:\子公司报表(Ⅱ)-只读权限	
+TCL-RB-RW	E:\子公司报表(Ⅱ)-写权限	yeshuyu,xin10.zhao,
+TCL-SY-RD	D:\D_driver\TCL实业-只读权限	liaoml,lhp,liaobh,
+TCL-SYSY-RW	D:\D_driver\TCL实业\预算跟踪月报-写	
+TCL-SY_RW	D:\D_driver\TCL实业-写权限	yeshuyu,xiaofp,tjing,xin10.zhao,
+TCL-YSGL-RD	D:\J_driver\财务管理\预算管理-只读	zhuweiwen,
+TCL-ZBZN-RD	D:\D_driver\总部职能信息共享-RD	gongqy,liuw01,Audit,zcb,zzb,gyyjy,cwgs,fwb,
+TZXMZLGD_R	投资项目资料归档_只读	yeshuyu,xiongmm,xin10.zhao,xiaofp,liaoml,
