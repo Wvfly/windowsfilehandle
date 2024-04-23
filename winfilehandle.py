@@ -62,30 +62,42 @@ class filehandle():
         sd.SetSecurityDescriptorDacl(1, acl, 0)
         win32security.SetFileSecurity(path, win32security.DACL_SECURITY_INFORMATION, sd)
 
-    # 获取文件或目录的安全描述符（暂时用不到）
+    # 获取文件或目录的安全描述符
     def get_security_descriptor(self,path):
         sd = win32security.GetFileSecurity(path, win32security.DACL_SECURITY_INFORMATION)
         dacl = sd.GetSecurityDescriptorDacl()
         ace_count = dacl.GetAceCount()  # 显示具有文件夹权限用户(组)数量
-        print('目录权限：%s' % path)
-        print('Ace count:', ace_count)
+        # print('目录权限：%s' % path)
+        # print('Ace count:', ace_count)
         # pathname = path.split('\\')[-1]
         # print(pathname)
 
         # wf = open(pathname + '.txt', "w", encoding='utf-8', errors='ignore')
         # wf.write('目录权限：%s\n' % path)
         # wf.write('有权限的用户数: %s\n' % ace_count)
+
+        returnmsg=[]
+        priv=[]
+
         for i in range(0, ace_count):
             try:
                 rev, access, usersid = dacl.GetAce(i)
-                #print(dacl.GetAce(i))
-                # print(rev,access,usersid)
                 user, group, type = win32security.LookupAccountSid('', usersid)
-                msg = 'User: {}/{}'.format(group, user), rev, access, type
-                print(msg)
+                lrev=list(rev)  #把rev从元组转为数组
+                lrev.append(user)
+                returnmsg.append(lrev)
+                print(lrev)
+
+                # msg='%s,%s,%s' %
+                # print()
+
+                # msg = 'User: {}/{}'.format(group, user), rev, access, type
+                # print(msg)
+
                 # wf.write(str(msg) + '\n')
             except Exception as e:
                 print(e)
+        return (returnmsg)
         # wf.close()
 
     def share_folder(self,folder_path, share_name):
