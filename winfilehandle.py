@@ -77,16 +77,16 @@ class filehandle():
         # wf.write('有权限的用户数: %s\n' % ace_count)
 
         returnmsg=[]
-        priv=[]
 
         for i in range(0, ace_count):
             try:
                 rev, access, usersid = dacl.GetAce(i)
                 user, group, type = win32security.LookupAccountSid('', usersid)
                 lrev=list(rev)  #把rev从元组转为数组
+                lrev.append(access)
                 lrev.append(user)
                 returnmsg.append(lrev)
-                print(lrev)
+                # print(lrev)
 
                 # msg='%s,%s,%s' %
                 # print()
@@ -97,6 +97,8 @@ class filehandle():
                 # wf.write(str(msg) + '\n')
             except Exception as e:
                 print(e)
+
+        #print(returnmsg)
         return (returnmsg)
         # wf.close()
 
