@@ -3,10 +3,10 @@ from winfilehandle import filehandle
 if __name__ == '__main__':
     handle=filehandle()
     file_path = r"D:\sss1"
-    user = "test"
+    user = "test111"
     password = '123456'
     # handle.share_folder(file_path,'sss1')
-    # handle.create_user(user,password,'自动化测试用户3')
+    handle.create_user(user,password,'自动化测试用户3')
     #handle.set_file_permissions(file_path, user, 0, 3, 1179817)
     #handle.set_file_permissions(file_path, user, 0, 3, 1245631)
 
@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
 
     #handle.delete_acl(file_path,user)
-    handle.get_security_descriptor(file_path)
+    ##handle.get_security_descriptor(file_path)
     #print(win32net.US)
     #print(handle.get_own(file_path))
 

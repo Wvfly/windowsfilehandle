@@ -1,4 +1,4 @@
-import win32security,win32netcon,win32net,win32con,win32api,os
+import win32security,win32netcon,win32net,win32con,win32api,os,json
 
 class filehandle():
     '''
@@ -171,18 +171,21 @@ class filehandle():
         return win32api.GetUserNameEx(win32con.NameSamCompatible)
 
     def get_user_info(self,username):
+        msg={}
         try:
             # 获取用户详细信息，级别1004包含用户全名
             user_info = win32net.NetUserGetInfo(None, username, 2)
-            full_name = user_info['full_name']
+            fullname = user_info['full_name']
             # print(f"用户名: {username}")
             # print(f"全名: {full_name}")
-            msg = '用户名：%s\t用户全名：%s' % (username, full_name)
-            print(msg)
-            with open('系统用户明细导出.txt', "a", encoding='utf-8', errors='ignore') as userfile:
-                userfile.write(msg + '\n')
+            msgtmp = '用户名：%s\t用户全名：%s' % (username, fullname)
+            msg[username]=fullname
+            # with open('系统用户明细导出.txt', "a", encoding='utf-8', errors='ignore') as userfile:
+            #     userfile.write(msgtmp + '\n')
         except Exception as e:
-            print(f"获取用户{username}信息时出错: {e}")
+            msg=f"获取用户{username}信息时出错: {e}"
+            print(msg)
+        return msg
 
     def get_group_info(self,groupname):
         try:
@@ -213,14 +216,19 @@ class filehandle():
     def list_users(self):
         '''
         获取windows用户清单
-        :return:
+        :return:返回用户和用户全名的json结构
         '''
+        msg={}
         try:
             users, _, _ = win32net.NetUserEnum(None, 0)
             for user in users:
-                self.get_user_info(user['name'])
+                userinfo=self.get_user_info(user['name'])
+                msg.update(userinfo)
+            msg=json.dumps(msg,ensure_ascii=False,indent=4)
         except Exception as e:
-            print(f"列出用户时出错: {e}")
+            msg=f"列出用户时出错: {e}"
+        return msg
+
 
     def list_groups(self):
         '''
@@ -236,7 +244,8 @@ class filehandle():
 
     def create_user(self,username, password, fullname, comment=None):
         '''
-        创建用户
+        1，特别注意：使用本方法创建用户需要以管理员身份运行
+        2，可以在代码中调用 elevate.elevate(graphical=False) 获得管理员权限
         :param username:
         :param password:
         :return:
@@ -260,7 +269,8 @@ class filehandle():
 
     def delete_user(self,username):
         '''
-        删除指定用户
+        1，特别注意，使用本方法删除用户需要获得管理员权限
+        2，可以在代码中调用 elevate.elevate(graphical=False) 获得管理员权限
         :param username:
         :return:
         '''
@@ -272,8 +282,8 @@ class filehandle():
             print(f"Error deleting user: {e}")
 
     # 要创建的用户名和密码
-    new_username = "newuser"
-    new_password = "newpassword"
+    # new_username = "newuser"
+    # new_password = "newpassword"
 
     def get_directories_by_level(self,directory, level=0):
         '''
