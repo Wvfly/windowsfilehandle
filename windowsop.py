@@ -12,6 +12,7 @@ def download_priv():
             dir=i.strip()
             #print(dir)
             priv[dir]=wfhandle.get_security_descriptor(dir)
+            print(priv[dir])
     #print(priv)
     pathpriv=json.dumps(priv,ensure_ascii=False,indent=4)
     with open(r'export\权限输出记录.json','w',encoding='utf-8', errors='ignore') as w:
@@ -30,7 +31,8 @@ if __name__ == '__main__':
         #mainpath=r'E:\运维工作2021'
         pathtree=wfhandle.get_directories_by_level(mainpath)
 
-        pf=open(pathtreefile,'w',encoding='utf-8', errors='ignore')
+        pf=open(pathtreefile,'a',encoding='utf-8', errors='ignore')
+        pf.write(mainpath + '\n')
         for j in range(len(pathtree)):
             inerpath=pathtree[j][1]
             pf.write(inerpath + '\n')
@@ -47,6 +49,14 @@ if __name__ == '__main__':
     uf=open('系统用户清单.json','w',encoding='utf-8', errors='ignore')
     uf.write(userinfo)
     uf.close()
+
+    groupinfo=wfhandle.list_groups()
+    print(groupinfo)
+    gf=open('系统用户组清单.json','w',encoding='utf-8', errors='ignore')
+    gf.write(groupinfo)
+    gf.close()
+
+    enddo=input('Enter any key to exit :')
 
 
 

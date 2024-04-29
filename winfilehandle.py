@@ -175,6 +175,7 @@ class filehandle():
         try:
             # 获取用户详细信息，级别1004包含用户全名
             user_info = win32net.NetUserGetInfo(None, username, 2)
+            #print(user_info)
             fullname = user_info['full_name']
             # print(f"用户名: {username}")
             # print(f"全名: {full_name}")
@@ -184,13 +185,21 @@ class filehandle():
             #     userfile.write(msgtmp + '\n')
         except Exception as e:
             msg=f"获取用户{username}信息时出错: {e}"
-            print(msg)
+            #print(msg)
         return msg
 
     def get_group_info(self,groupname):
+        '''
+        获取系统组的信息
+        :param groupname: 用户组名称
+        :return:
+        '''
+        msg={}
+        detail={}
         try:
             # 获取组的基本信息
             group_info = win32net.NetLocalGroupGetInfo(None, groupname, 1)
+            #print(group_info)
             group_comment = group_info['comment']
             # print(f"组名: {groupname}")
             # print(f"描述: {group_info['comment']}")
@@ -200,15 +209,22 @@ class filehandle():
             # 获取组内的用户列表
             users, _, _ = win32net.NetLocalGroupGetMembers(None, groupname, 1)
             # print("组内用户:")
-            userlist = ''
+            userlist = []
             for user in users:
-                userlist += user['name'] + ','
+                userlist.append(user['name'])
                 # print(f"    {user['name']}")
+            detail['userlist']=userlist
+            detail['comments']=group_comment
 
+            '''
             msg = '组名：%s\t组描述信息：%s\t组成员：%s' % (groupname, group_comment, userlist)
             print(msg)
             with open('系统用户组明细导出.txt', "a", encoding='utf-8', errors='ignore') as groupfile:
                 groupfile.write(msg + '\n')
+            '''
+            msg[groupname]=detail
+            # print(msg)
+            return msg
 
         except Exception as e:
             print(f"获取组{groupname}信息时出错: {e}")
@@ -235,10 +251,15 @@ class filehandle():
         获取windows用户组明细
         :return:
         '''
+        msg={}
         try:
             groups, _, _ = win32net.NetLocalGroupEnum(None, 0)
             for group in groups:
-                self.get_group_info(group['name'])
+                groupdetail=self.get_group_info(group['name'])
+                msg.update(groupdetail)
+            msg = json.dumps(msg, ensure_ascii=False, indent=4)
+            # print(msg)
+            return msg
         except Exception as e:
             print(f"列出组时出错: {e}")
 
@@ -246,9 +267,10 @@ class filehandle():
         '''
         1，特别注意：使用本方法创建用户需要以管理员身份运行
         2，可以在代码中调用 elevate.elevate(graphical=False) 获得管理员权限
-        :param username:
-        :param password:
-        :return:
+        :param username: 用户名
+        :param password: 密码
+        :param fullname: 用户全名/描述
+        :return: null
         '''
 
         data = {
@@ -265,7 +287,28 @@ class filehandle():
         # 65515（用户不能修改密码，密码永不过期，账号已禁用）
 
         # 使用 win32net.NetUserAdd() 创建用户
-        win32net.NetUserAdd(None, 2, data)
+        try:
+            win32net.NetUserAdd(None, 2, data)
+        except Exception as e:
+            print(username,e)
+
+    def create_group(self,groupname,comments=None):
+        '''
+        1，特别注意：使用本方法创建用户需要以管理员身份运行
+        2，可以在代码中调用 elevate.elevate(graphical=False) 获得管理员权限
+        :param groupname: 组名称
+        :param comments: 组描述信息
+        :return: null
+        '''
+        data={
+            'name':groupname,
+            'comment':comments
+        }
+        try:
+            win32net.NetLocalGroupAdd(None,1,data)
+            print('用户组“%s”创建成功' % groupname)
+        except Exception as e:
+            print(e)
 
     def delete_user(self,username):
         '''
@@ -280,6 +323,44 @@ class filehandle():
             print(f"User {username} deleted successfully.")
         except Exception as e:
             print(f"Error deleting user: {e}")
+
+    def delete_group(self,groupname):
+        try:
+            win32net.NetLocalGroupDel(None,groupname)
+            print(f"Group {groupname} deleted successfully.")
+        except Exception as e:
+            print(e)
+
+    def add_user_to_group(self,username,groupname):
+        '''
+        win32接口调试不通，只能用命令行方式操作
+        :param username:
+        :param groupname:
+        :return:
+        '''
+        cmd='net localgroup %s %s /add' % (groupname,username)
+        try:
+            status=os.system(cmd)
+            if status == 0:
+                print('"%s" 成功加入用户组 "%s"' % (username,groupname))
+        except Exception as e:
+            print(e)
+
+    def remove_user_from_group(self,username,groupname):
+        '''
+        win32接口调试不通，只能用命令行方式操作
+        :param username:
+        :param groupname:
+        :return:
+        '''
+        cmd='net localgroup %s %s /delete' % (groupname,username)
+        try:
+            status=os.system(cmd)
+            if status == 0:
+                print('成功从用户组 "%s" 中移除用户 %s' % (groupname,username))
+        except Exception as e:
+            print(e)
+
 
     # 要创建的用户名和密码
     # new_username = "newuser"
