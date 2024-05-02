@@ -1,2 +1,0 @@
-Trustee: Administrators
-Access Rights:

@@ -1,8 +1,0 @@
-目录权限：E:\PycharmProjects\get_win_share\dist\目录权限
-有权限的用户数: 8
-目录权限：E:\PycharmProjects\get_win_share\dist\目录权限
-有权限的用户数: 8
-目录权限：E:\PycharmProjects\get_win_share\dist\目录权限
-有权限的用户数: 8
-目录权限：E:\PycharmProjects\get_win_share\dist\目录权限
-有权限的用户数: 8

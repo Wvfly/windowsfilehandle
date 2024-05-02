@@ -1,7 +1,0 @@
-目录权限：D:\share2
-有权限的用户数: 5
-('User: WEIGANG3-WU/Getech', (0, 3), 2032127, 1)
-('User: BUILTIN/Administrators', (0, 0), 2032127, 4)
-('User: BUILTIN/Administrators', (0, 11), 2032127, 4)
-('User: NT AUTHORITY/SYSTEM', (0, 0), 2032127, 5)
-('User: NT AUTHORITY/SYSTEM', (0, 11), 2032127, 5)
